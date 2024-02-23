@@ -1,0 +1,2 @@
+# Web_KatexToLatex
+在网页端禁用Katex渲染并显示Latex公式的源代码，便于用户复制到word、markdown
