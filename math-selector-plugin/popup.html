@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF8">
+  <title>Math Selector</title>
+  <style>
+    body {
+      min-width: 200px;
+      padding: 10px;
+    }
+    button, input {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    label {
+      font-size: 14px;
+      margin-bottom: 5px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <label for="prefix">前缀(LaTeX Prefix):</label>
+  <input type="text" id="prefix" value="$">
+  <label for="suffix">后缀(LaTeX Suffix):</label>
+  <input type="text" id="suffix" value="$">
+  <button id="convertFormulaBtn">转化(Convert to LaTeX)</button>
+  <button id="highlightFormulaBtn">高亮(Highlight Formula)</button>
+  <script src="popup.js"></script>
+</body>
+</html>
